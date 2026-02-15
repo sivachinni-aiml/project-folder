@@ -100,7 +100,3 @@ streamlit run app.py
 2. Go to https://streamlit.io/cloud and create a new app.
 3. Select the repo, branch (main), and `app.py`.
 4. Deploy.
-
-## Notes for assignment submission
-- Add the GitHub repo link and Streamlit app link to your final submission PDF.
-- Run once on BITS Virtual Lab and include a screenshot as required.
