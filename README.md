@@ -3,9 +3,7 @@ AIML ASSIGNMENT 02
 # ML Assignment 2 – Multiple Classifiers + Streamlit App
 
 ## a) Problem Statement
-The objective of this assignment is to build and compare multiple machine learning classification models using a single public dataset.  
-All models are evaluated using standard classification metrics and demonstrated through an interactive Streamlit web application.  
-The Streamlit app allows users to upload test CSV data, select a model, view evaluation metrics, and visualize a confusion matrix or classification report.
+Develop and compare multiple machine‑learning classification models on a single public dataset, evaluate them using standard performance metrics, and demonstrate their behavior through an interactive Streamlit web application. The application supports test data upload, model selection, metric visualization, and display of confusion matrix or classification report.
 
 ---
 
