@@ -17,8 +17,7 @@ Develop and compare multiple machine‑learning classification models on a singl
 - Description: Features are computed from digitized images of fine needle aspirate (FNA) of a breast mass and describe characteristics of the cell nuclei.
 
 **Target Encoding Used:**
-- `1` → Malignant
-- `0` → Benign
+- `1` → Malignant - `0` → Benign
 
 **Dataset References:**
 - UCI Repository: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic  
@@ -62,10 +61,10 @@ Develop and compare multiple machine‑learning classification models on a singl
 | ML Model Name | Observation about Model Performance |
 |--------------|-------------------------------------|
 | Logistic Regression | Strong baseline model with excellent AUC and balanced precision–recall performance. |
-| Decision Tree | Captures non-linear relationships but may overfit when used as a single model. |
+| Decision Tree | 	A single tree can fit non-linear patterns but may overfit; performance is usually below ensembles. |
 | kNN | Sensitive to feature scaling and distance metrics; performs well when classes are clearly separated. |
 | Naive Bayes | Very fast and simple baseline; independence assumption can limit performance with correlated features. |
-| Random Forest (Ensemble) | Best overall performance with highest accuracy and MCC due to ensemble averaging and robustness. |
+| Random Forest (Ensemble) | Performs best overall on this dataset (high Accuracy/AUC and balanced Precision-Recall). |
 | XGBoost (Ensemble) | Boosted trees provide strong performance by sequentially correcting errors from previous models. |
 
 ---
