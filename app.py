@@ -85,9 +85,7 @@ with st.sidebar:
 
 # Selected model
 info = artifacts[model_name]
-#model = load_model(info['model_file'])
-model = load_model(XGBoost_Ensemble.joblib)
-XGBoost_Ensemble.joblib
+model = load_model(info['model_file'])
 
 col1, col2 = st.columns([1.25, 1])
 
